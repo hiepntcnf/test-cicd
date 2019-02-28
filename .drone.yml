@@ -1,6 +1,5 @@
 pipeline:
-  build:
+  php:
     image: canifa/php:7.1-fpm
-    commands: echo 'test'
-    scripts:
-      - echo 'test'
+    commands:
+      - echo php -v
